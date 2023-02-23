@@ -1,3 +1,17 @@
+
+# Crear un proyecto de Angular
+npm init @angular myApp
+
+# Instalar el interprete de linea de comandos
+npm install -g @angular/cli
+
+# Creamos un componente nuevo
+ng g c components/ejemplo1
+
+# Arrancar el proyecto
+npm start
+
+
 # EjemplosSimplesAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
