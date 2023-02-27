@@ -1,0 +1,20 @@
+<h2>Generador de Menús con OpenAI</h2>
+<form (ngSubmit)="handleSubmit()">
+    <label for="gender">Genero:</label>
+    <input type="text" name="gender" id="gender" [(ngModel)]="gender">
+
+    <label for="weight">Peso:</label>
+    <input type="text" name="weight" id="weight" [(ngModel)]="weight">
+
+    <label for="period">Periodo:</label>
+    <select name="period" id="period" [(ngModel)]="period">
+        <option value="el desayuno" selected="true">Desayuno</option>
+        <option value="la comida">Comida</option>
+        <option value="la cena">Cena</option>
+    </select>
+
+    <label for="diseases">Enfermedades:</label>
+    <input type="text" name="diseases" id="diseases" [(ngModel)]="diseases">
+    
+    <button>Enviar</button>
+</form>
