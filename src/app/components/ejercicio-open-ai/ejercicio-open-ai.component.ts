@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OpenaiService } from 'src/app/services/openai.service';
 
 @Component({
   selector: 'app-ejercicio-open-ai',
@@ -11,9 +12,12 @@ export class EjercicioOpenAIComponent {
   period = 'el desayuno'
   diseases = ''
   menu='...'
+  constructor(private openaiService: OpenaiService) { }
 
   handleSubmit(){
     console.log(this.gender, this.weight, this.period, this.diseases)
+    this.openaiService.getMenu(this.gender, this.weight, this.period, this.diseases)
+      .subscribe(response => this.menu = response )
   }
 
 }

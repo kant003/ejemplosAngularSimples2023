@@ -1,0 +1,7 @@
+<!-- condicionales con nfIf -->
+El numero vale: {{ num }}
+<button (click)="num = num + 1">Increment</button>
+<button (click)="decrement()">Decrement</button>
+
+<p *ngIf="num > 5">El numero es muy grande</p>
+<p *ngIf="isPrime()">Es primo</p>
