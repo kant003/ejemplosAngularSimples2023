@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejemplosSimplesAngular';
+  laEdad = 0
+  pintarEdad(edad:number){
+    this.laEdad = edad
+  }
 }

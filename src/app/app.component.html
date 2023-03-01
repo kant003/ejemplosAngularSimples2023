@@ -1,16 +1,8 @@
-
-<a href="#" [routerLink]="['/ejemplo1']" >Ejer 1</a> | 
-<a href="#" [routerLink]="['/ejemplo2']" >Ejer 2</a> | 
-<a href="#" [routerLink]="['/ejemplo3']" >Ejer 3</a> | 
-<a href="#" [routerLink]="['/ejemplo4']" >Ejer 4</a> | 
-<a href="#" [routerLink]="['/ejemplo5']" >Ejer 5</a> | 
-<a href="#" [routerLink]="['/ejemplo6']" >Ejer 6</a> | 
-<a href="#" [routerLink]="['/ejemplo7']" >Ejer 7</a> | 
-<a href="#" [routerLink]="['/ejemplo8']" >Ejer 8</a> | 
-<a href="#" [routerLink]="['/ejemplo9']" >Ejer 9</a> | 
-<a href="#" [routerLink]="['/ejemplo10']" >Ejer 10</a> | 
-<a href="#" [routerLink]="['/ejemplo11']" >Ejer 11</a> | 
-<a href="#" [routerLink]="['/openai']" >IA </a> | 
+<app-ejemplo11 [color]="'red'" [text]="'La frase que quieras'"></app-ejemplo11>
+<app-ejemplo12 (onChangeEdad)="pintarEdad($event)" ></app-ejemplo12>
+La edad de:{{laEdad}}
+<hr/>
+<app-menu></app-menu>
 
 <hr/>
 <router-outlet></router-outlet>

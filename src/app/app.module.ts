@@ -17,7 +17,11 @@ import { Ejemplo8Component } from './components/ejemplo8/ejemplo8.component';
 import { Ejemplo9Component } from './components/ejemplo9/ejemplo9.component';
 import { Ejemplo10Component } from './components/ejemplo10/ejemplo10.component';
 import { Ejemplo11Component } from './components/ejemplo11/ejemplo11.component';
-import { ParesMayusculaPipe } from './pares-mayuscula.pipe'
+import { ParesMayusculaPipe } from './pares-mayuscula.pipe';
+import { Ejemplo12Component } from './components/ejemplo12/ejemplo12.component';
+import { Ejemplo13Component } from './components/ejemplo13/ejemplo13.component';
+import { Ejemplo14Component } from './components/ejemplo14/ejemplo14.component';
+import { MenuComponent } from './components/menu/menu.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +37,11 @@ import { ParesMayusculaPipe } from './pares-mayuscula.pipe'
     Ejemplo9Component,
     Ejemplo10Component,
     Ejemplo11Component,
-    ParesMayusculaPipe
+    ParesMayusculaPipe,
+    Ejemplo12Component,
+    Ejemplo13Component,
+    Ejemplo14Component,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

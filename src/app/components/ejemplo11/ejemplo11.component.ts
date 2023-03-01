@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ejemplo11',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./ejemplo11.component.css']
 })
 export class Ejemplo11Component {
-
+  @Input() 
+  color = 'blue'
+  @Input() 
+  text = ''
 }

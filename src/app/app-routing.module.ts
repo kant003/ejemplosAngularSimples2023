@@ -3,6 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { Ejemplo1Component } from './components/ejemplo1/ejemplo1.component';
 import { Ejemplo10Component } from './components/ejemplo10/ejemplo10.component';
 import { Ejemplo11Component } from './components/ejemplo11/ejemplo11.component';
+import { Ejemplo12Component } from './components/ejemplo12/ejemplo12.component';
+import { Ejemplo13Component } from './components/ejemplo13/ejemplo13.component';
+import { Ejemplo14Component } from './components/ejemplo14/ejemplo14.component';
 import { Ejemplo2Component } from './components/ejemplo2/ejemplo2.component';
 import { Ejemplo3Component } from './components/ejemplo3/ejemplo3.component';
 import { Ejemplo4Component } from './components/ejemplo4/ejemplo4.component';
@@ -25,6 +28,10 @@ const routes: Routes = [
   {path:'ejemplo9', component: Ejemplo9Component},
   {path:'ejemplo10', component: Ejemplo10Component},
   {path:'ejemplo11', component: Ejemplo11Component},
+  {path:'ejemplo12', component: Ejemplo12Component},
+  {path:'ejemplo13', component: Ejemplo13Component},
+  {path:'ejemplo13/:id', component: Ejemplo13Component},
+  {path:'ejemplo14', component: Ejemplo14Component},
   {path:'openai', component: EjercicioOpenAIComponent},
 ];
 
