@@ -1,0 +1,14 @@
+<!-- style/class property bound -->
+<button style="color: red">Esto es un boton 1</button>
+<button [style.color]="colorDefault">Esto es un boton 2</button>
+<button [style.color]="randomColor()">Esto es un boton 3</button>
+<button [style.color]="'gray'">Esto es un boton 4</button>
+<button [style.color]="isError()?'red':'black'">Esto es un boton 5</button>
+<button [style.background]="colorDefault">Esto es un boton 5</button>
+<br/>
+<input type="text" [(ngModel)]="colorDefault">
+
+<hr/>
+<div class="cute">Esto es un div 1</div>
+<div [class.cute]="theme=='pastel'">Esto es un div 2</div>
+<div [class.error]="isError()">Esto es un div 3</div>

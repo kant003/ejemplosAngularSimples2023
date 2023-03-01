@@ -1,0 +1,10 @@
+.cute{
+    background-color: pink;
+    color:palevioletred;
+    font-size: 2rem;
+    border: 1px solid purple;
+}
+
+.error{
+    color: red;
+}

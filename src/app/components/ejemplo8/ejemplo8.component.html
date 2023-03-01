@@ -1,0 +1,9 @@
+<!-- template reference 
+hacemos referencia a tag del propio DOM
+-->
+Num1: <input type="number" #num1>
+<br/>
+Num2: <input type="number" #num2>
+<br/>
+<button (click)="add(+num1.value, +num2.value)">Calcular suma</button>
+{{result}}
