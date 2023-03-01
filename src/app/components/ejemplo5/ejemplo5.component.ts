@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class Ejemplo5Component {
   num: number = 0
+
+  constructor(){
+    setInterval( ()=>this.num = this.num +1 ,  2000 )
+  }
   
 }
